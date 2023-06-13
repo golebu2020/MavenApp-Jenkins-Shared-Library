@@ -7,4 +7,5 @@ def call(){
         sh "echo $PASS | docker login -u $USER --password-stdin"
         sh "docker push golebu2020/maven-repo:jma-3.0"
     }
+    echo "This is a shared Library"
 }
